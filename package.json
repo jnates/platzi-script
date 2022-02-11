@@ -1,0 +1,21 @@
+{
+    "name": "platzi-scipts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node ../dist/index.js"
+    },
+    "author": "Juan Nates",
+    "license": "ISC",
+    "keywords": [],
+    "description": "",
+    "devDependencies": {
+        "@types/koa": "^2.13.4",
+        "typescript": "^3.3.3"
+    },
+    "dependencies": {
+        "koa": "^2.13.4",
+        "koa-router": "^10.1.1"
+    }
+}
